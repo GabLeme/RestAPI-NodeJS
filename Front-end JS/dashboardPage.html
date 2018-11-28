@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <style>
+        #graficoRam{
+            width: 500px; height: 500px;
+            float: right;
+        }
+        #graficoCpu {
+            width: 500px; height: 500px;
+            float: right;
+        }
+        #graficoTempoAtividadeHd{
+            width: 500px; height: 500px;    
+        }
+    </style>
+</head>
+
+<body>
+    <div id="graficoRam">
+        <canvas id="chartjs-0" class="chartjs"></canvas>
+    </div>
+
+    <div id="graficoCpu">
+        <canvas id="chartjs-1" class="chartjs"></canvas>
+    </div>
+
+    <div id="graficoTempoAtividadeHd">
+        <canvas id="chartjs-2" class="chartjs"></canvas>
+    </div>
+    <!-- Charts JS -->
+    <script src="js/charts.js"></script>
+    <script src="js/leituras.js"></script>
+</body>
+
+</html>
